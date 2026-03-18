@@ -1,1 +1,1 @@
-# HTML-CSS-JS-Student-Portfolio-
+# HTML-CSS-JS-Student-Portfolio_MIDTERM PROJECT
