@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio | Interests</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="interests-background">
+
+  <!-- Header + Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="profile-pic" href="index.html">
+          <img src="sheesh.jpg" alt="My profile picture" />
+        </a>
+
+        <a class="logo" href="index.html">Jake's Portfolio</a>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="interests.html">Interests</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--Interests-->
+  <main class="container">
+
+    <section class="card page-title">
+      <h1 id="interests-main-title">My Interests</h1>
+      <p class="lead" id="interests-description-text">
+        In this page here are some of my interests
+      </p>
+
+      <!-- Added simple JavaScript buttons -->
+      <div class="button-row">
+        <button class="btn" id="change-interests-title-button">Change Title</button>
+        <button class="btn btn-outline" id="toggle-interests-section-button">Show or Hide Interests</button>
+        <button class="btn" id="highlight-favorite-interest-button">Highlight Favorite Interest</button>
+      </div>
+    </section>
+
+    <section class="grid" id="interests-section">
+      <article class="card interest-card">
+        <h2><span class="icon" aria-hidden="true">🎧</span> Music</h2>
+        <p>One of my interests is music because it helps me to relax, or when I'm sad this is my comfort zone or even
+          when I'm happy this is my one of happiness tho I'm not a good singer😁.</p>
+      </article>
+
+      <article class="card interest-card" id="favorite-interest-card">
+        <h2><span class="icon" aria-hidden="true">🎮</span> Games</h2>
+        <p>Games this one is my other interests this help me to hype and free me from boredom I'm enjoying game with
+          stategy and have pvp💥🔫.</p>
+      </article>
+
+      <article class="card interest-card">
+        <h2><span class="icon" aria-hidden="true">⚽</span> Sports</h2>
+        <p>I enjoy playing various sports i know I'm not that good but still I enjoy it⛹️.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>jakelorence.meneses@student.laverdad.edu.ph • Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

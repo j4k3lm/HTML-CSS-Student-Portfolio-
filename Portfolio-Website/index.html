@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="Home-background">
+
+  <!-- Header + Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="profile-pic" href="index.html">
+          <img src="sheesh.jpg" alt="My profile picture" />
+        </a>
+
+        <a class="logo" href="index.html">Jake's Portfolio</a>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="interests.html">Interests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Introduction -->
+    <section class="card hero" id="hero">
+      <h1 id="home-main-title">Hello! I’m Jake Lorence E. Meneses 👋</h1>
+      <p class="lead" id="home-introduction-text">
+        I’m a student who's learning and trying my best to learn the basics of building an Website using HTML and CSS.
+        This portfolio shows my beginner skills
+        and how I tried to build one hope you guys like it😊
+      </p>
+
+      <!-- Added simple JavaScript buttons -->
+      <div class="button-row">
+        <button class="btn" id="change-home-text-button">Change Introduction Text</button>
+        <button class="btn btn-outline" id="toggle-skills-section-button">Show or Hide My Skills</button>
+        <button class="btn" id="highlight-skills-button">Highlight Skill Cards</button>
+      </div>
+    </section>
+
+    <!-- My Skills Section -->
+    <section class="section" id="skills">
+      <h2> My Skills</h2>
+      <div class="grid" id="skills-card-container">
+        <article class="card skill-card">
+          <h3>Can Learn Faster</h3>
+          <p>But just any second I forget about it quickly (short-term memory😣).</p>
+        </article>
+
+        <article class="card skill-card">
+          <h3>Time Management</h3>
+          <p>So that I can save my time more and use it efficiently.</p>
+        </article>
+
+        <article class="card skill-card">
+          <h3>Adaptability</h3>
+          <p>I can adapt in any environment or situations.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>jakelorence.meneses@student.laverdad.edu.ph • Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

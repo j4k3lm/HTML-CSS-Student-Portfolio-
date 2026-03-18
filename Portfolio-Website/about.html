@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio | About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="about-background">
+
+  <!-- Header + Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="profile-pic" href="index.html">
+          <img src="sheesh.jpg" alt="My profile picture" />
+        </a>
+
+        <a class="logo" href="index.html">Jake's Portfolio</a>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="interests.html">Interests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card page-title">
+      <h1 id="about-page-title">More About Me</h1>
+      <p class="lead">So this page here includes my biography, education, and my career goals.</p>
+
+      <!-- Added simple JavaScript buttons -->
+      <div class="button-row">
+        <button class="btn" id="change-biography-button">Change Biography Text</button>
+        <button class="btn btn-outline" id="toggle-career-goals-button">Show or Hide Career Goals</button>
+      </div>
+    </section>
+
+    <section class="grid two-col">
+      <!-- Biography -->
+      <article class="card">
+        <h2>Biography</h2>
+        <p id="biography-paragraph">
+          Hello! I’m Jake Lorence E Meneses. I’m a student who’s still figuring things out, but I enjoy learning and
+          trying new things. One of my interested these day is our topic in the WebApp Development (still not get it but
+          willing to try and try), and I’m working hard to improve a little every day.
+        </p>
+      </article>
+
+      <!-- Education -->
+      <article class="card">
+        <h2>Education</h2>
+        <ul class="list">
+          <li><strong>School:</strong>La Verdad Christian College</li>
+          <li><strong>Cource/Year:</strong>ACT_1year</li>
+          <li><strong>Learning:</strong>HTML & CSS (WebApp Development)</li>
+        </ul>
+      </article>
+
+      <!-- Career Goals -->
+      <article class="card full" id="career-goals-section">
+        <h2>Career Goals</h2>
+        <p>
+          My goal is to graduate and have a good job(loobin🙏). So I need to study hard even I'm not good at coding
+          still there's a lot of opportunities out there if I graduate and have certificate.
+        </p>
+        <p> <strong>here the list i must do to achieve that:</strong></p>
+        <ol class="list">
+          <li>Practice building layouts</li>
+          <li>Create more small projects</li>
+          <li>Learn JavaScript basics</li>
+        </ol>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>jakelorence.meneses@student.laverdad.edu.ph • Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
